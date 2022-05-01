@@ -10,7 +10,7 @@ export default function AboutMeBox() {
                 <div className="row">
 
                     <div className="col-lg-6 col-md-12 col-sm-12 box-left justfied-content-end d-flex">
-                        <img src={myImage2} className="img-fluid"/>
+                        <img src={myImage1} className="img-fluid"/>
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 box-right">
                         <h5>
@@ -18,7 +18,8 @@ export default function AboutMeBox() {
                         
                         I am detail-oriented and hard working. I have also a creative bent of mind . I am versatile ,focuesd and felxible. 
 
-                        Now, I am mainly a frontend developer, C programmer and also content creator. </h5>
+                        Now, I am mainly a frontend developer, C programmer and also content creator. 
+                        </h5>
                       
 
                     </div>

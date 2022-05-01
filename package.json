@@ -1,4 +1,5 @@
-{   "homepage": "https://sayandey2106.github.io/portfolio",
+{
+  "homepage": "https://sayandey2106.github.io/portfolio",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +9,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^3.2.3",
     "particles.js": "^2.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
