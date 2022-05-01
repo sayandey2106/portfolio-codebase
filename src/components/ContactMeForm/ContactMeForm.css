@@ -1,0 +1,63 @@
+.contact{
+    padding: 4%;
+    /* height: 400px; */
+    /* width: 800px; */
+  
+}
+.left-form{
+    background: linear-gradient( 
+        140deg
+        , #f54571 0%, #FF2E63 50%, #fd154f 75% ) !important;;
+    padding: 4%;
+    color: white;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    /* margin-top:10%; */
+}
+.contact-info img{
+    /* margin-bottom: 15%; */
+}
+.contact-info h2{
+    /* margin-bottom: 10%; */
+    color: white;
+}
+.right-form{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background:linear-gradient(134.92deg, #ff0543 -2.54%, #FF2E63 94.63%) no-repeat !important;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+    margin: 5px;
+}
+.contact-form button:hover{
+    background: linear-gradient(134.92deg, #FF2E63 -2.54%,  #ff0543 94.63%) no-repeat;
+    border:none;
+    color: white;
+  }
+
+
+.form-group h6{
+    color : red;
+}
+.submit-text{
+    color: green;
+    /* display : none; */
+}
+
+@media (max-width:700px){
+
+    .resume{
+        width: auto;
+        margin: 20px;
+    }
+}

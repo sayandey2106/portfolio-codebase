@@ -1,0 +1,42 @@
+.navbar {
+  /* background-color: #03071e; */
+  height: 80px;
+  /* position: fixed; */
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  /* background-color: #03071e; */
+}
+
+.nav-link {
+  color: #FF2E63 !important;
+  margin-left: 10px;
+  font-size:20px;
+}
+
+.nav-link:hover {
+  /* color: #ffba08 !important; */
+  color: #252A34!important;
+  margin-left: 10px;
+}
+
+.active {
+  color: #252A34 !important;
+  border-bottom: 1px solid #252A34;
+  padding-bottom: 7px;
+  text-decoration: bold;
+}
+
+.navbar-toggler-icon {
+  color: #FF2E63 !important;
+}
+
+@media(max-width: 1000px){
+
+  .navbar-collapse{
+    background-color: #EAEAEA;
+  }
+}

@@ -1,0 +1,123 @@
+*{
+  font-family: "JetBrains Mono",monospace;
+}
+
+
+
+.home {
+  height: 100vh;
+  /* background-color: #03071e; */
+  /* background-color: #ff7675; */
+  /* background: url("./Path 1.png") no-repeat; */
+  width: 100%;
+  padding-top: 7%;
+  
+}
+.typical h3 {
+  /* color: black; */
+  color: #252A34;
+
+  font-size: 50px;
+}
+.intro {
+  /* color:black; */
+  color: white;
+
+}
+.intro p :hover {
+  color: red;
+}
+.hello h3 {
+  /* color: black; */
+  color: #252A34;
+
+  font-size: 40px !important;
+}
+
+.name h1 {
+  color: #FF2E63;
+  font-size: 90px !important;
+}
+
+.my-image {
+  width: 600px;
+  height: auto;
+  border-radius: 50%;
+  /* border-bottom: 1px solid #ffba08;
+  border-right: 1px solid #faa307;
+  border-left: 1px solid #faa307; */
+  border-bottom: 1px solid #252A34;
+  border-right: 1px solid #252A34;
+  border-left: 1px solid #252A34;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  padding-left: 5px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.6s ease;
+  /* box-shadow: 6px 7px #e85b044d; */
+}
+
+.social-media-icons .fab {
+  /* color: #dc2f02; */
+  color: #FF2E63;
+
+  margin: 8px;
+  font-size: 25px;
+}
+
+.right-home img:hover {
+  padding: 0;
+  /* border: 0; */
+}
+
+.fab:hover {
+  color:#252A34;
+}
+
+h6 {
+  color: #fff;
+}
+
+h6:hover {
+  color: red;
+}
+
+.resume-btn {
+  border: 0;
+  border-radius: 15px;
+  background: linear-gradient( 140deg, #42c3ca 0%, #42c3ca 50%, #42c3cac7 75% ) !important;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 5px 16px;
+}
+.resume-btn:hover {
+  /* border:  #d00000; */
+  background-color: white;
+
+}
+
+.hire-me-btn {
+  border: solid 4px #FF2E63;
+  /* background-color:#FF2E63; */
+  width: 170px;
+  height: 50px;
+  border-radius: 20px;
+  color: #FF2E63;
+  font-weight: 500;
+  font-size: 25px;
+  margin: 10px;
+  padding: 0;
+}
+.hire-me-btn:hover {
+   background-color: #252A34 !important;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 1000px) {
+  .home {
+    height: 100%;
+  }
+}
